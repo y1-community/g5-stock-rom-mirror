@@ -111,5 +111,10 @@
       "os": "macos",
       "arch": "universal"
     }
+  },
+  "firmware": {
+    "omit_images": [
+      "userdata.img"
+    ]
   }
 }
