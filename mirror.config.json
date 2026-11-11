@@ -53,5 +53,63 @@
       "target_model": "Y2",
       "target_type": "Stock"
     }
-  ]
+  ],
+  "platforms": {
+    "windows": {
+      "updater_asset": "flash_tool_windows.zip",
+      "updater_repo": "y1-community/innioasis-updater",
+      "tag": "flash_tool",
+      "driver_asset": "1.Install.Driver.First.and.Reboot.PC.exe",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool",
+      "os": "windows",
+      "arch": "x86-64"
+    },
+    "windows-legacy": {
+      "updater_asset": "flash_tool_windows.zip",
+      "updater_repo": "y1-community/innioasis-updater",
+      "tag": "flash_tool",
+      "driver_asset": "1.Install.Driver.First.and.Reboot.PC.exe",
+      "suffix": "-windows-legacy.zip",
+      "layout": "sp_flash_tool",
+      "os": "windows",
+      "arch": "x86",
+      "legacy": true
+    },
+    "linux": {
+      "updater_asset": "flash_tool_linux.zip",
+      "updater_repo": "y1-community/innioasis-updater",
+      "tag": "flash_tool",
+      "suffix": "-linux.zip",
+      "layout": "sp_flash_tool",
+      "os": "linux",
+      "arch": "x86-64"
+    },
+    "linux-arm64": {
+      "updater_asset": "UpdaterCE-Linux-Portable-arm64.zip",
+      "suffix": "-linux-arm64.zip",
+      "layout": "sp_flash_tool",
+      "os": "linux",
+      "arch": "arm64",
+      "optional": true
+    },
+    "linux-legacy": {
+      "updater_asset": "flash_tool_linux.zip",
+      "updater_repo": "y1-community/innioasis-updater",
+      "tag": "flash_tool",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "os": "linux",
+      "arch": "x86",
+      "legacy": true
+    },
+    "macos": {
+      "updater_asset": "Innioasis.Updater.for.Mac.dmg",
+      "updater_repo": "y1-community/innioasis-updater",
+      "suffix": "-macos.zip",
+      "layout": "beside_dmg",
+      "os": "macos",
+      "arch": "universal"
+    }
+  }
 }
