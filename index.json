@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T22:56:48Z",
+  "generated_at": "2026-11-14T05:23:22Z",
   "source_repo": "y1-community/g5-stock-rom",
   "source_fallback_repo": "ryan-specter/g5-stock-rom",
   "mirror_repo": "y1-community/g5-stock-rom-mirror",
@@ -58,7 +58,80 @@
       "legacy": false
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "tag": "MX4_EN-V1.11-20260727",
+      "title": "Portable Flashing Package: MX4_EN-V1.11-20260727",
+      "source_title": "MX4_EN-V1.11-20260727",
+      "source_url": "https://github.com/y1-community/g5-stock-rom/releases/tag/MX4_EN-V1.11-20260727",
+      "source_fallback_url": "https://github.com/ryan-specter/g5-stock-rom/releases/tag/MX4_EN-V1.11-20260727",
+      "published_at": "2026-11-05T04:21:06Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis G5 software **MX4_EN-V1.11-20260727**.\n\n- Model: **G5** (Innioasis)\n- Package: `rom_g5.zip`\n- Build tag: `MX4_EN-V1.11-20260727`\n- Build date: 2026-07-27\n\n## Install\n\n1. Download `rom_g5.zip` (every numbered volume if the release has more than one, then `cat rom_g5.zip.* > rom_g5.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g5.zip` | 1953.7 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G5>",
+      "assets": [
+        {
+          "name": "rom_g5-windows.zip",
+          "source_asset": "rom_g5.zip",
+          "platform": "windows",
+          "model": "G5",
+          "type": "Stock",
+          "size": 2088208244,
+          "sha256": "60b3b28ca824c995c22dfa3f55a399ba3daf2a1bf47c789ccffc22d2d0d60d98",
+          "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows.zip"
+        },
+        {
+          "name": "rom_g5-windows-legacy.zip",
+          "source_asset": "rom_g5.zip",
+          "platform": "windows-legacy",
+          "model": "G5",
+          "type": "Stock",
+          "size": 2097668626,
+          "sha256": "befe8dba618d41bb8b4c0805b828bb9dc1155a8dba76a09c077e9c18494f7f50",
+          "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows-legacy.zip"
+        },
+        {
+          "name": "rom_g5-linux.zip",
+          "source_asset": "rom_g5.zip",
+          "platform": "linux",
+          "model": "G5",
+          "type": "Stock",
+          "size": 2096082089,
+          "sha256": "fde2aab53ebad56c3b4a5b506dfd8fe82c155221f8f8ee92ae079c65a11fc72a",
+          "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux.zip"
+        },
+        {
+          "name": "rom_g5-linux-legacy.zip",
+          "source_asset": "rom_g5.zip",
+          "platform": "linux-legacy",
+          "model": "G5",
+          "type": "Stock",
+          "size": 2096082911,
+          "sha256": "dfeef7e5955ef508c3a5b134f784edc90be970cf66f243a3fbb5e0e48028c401",
+          "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux-legacy.zip"
+        },
+        {
+          "name": "rom_g5-macos.zip",
+          "source_asset": "rom_g5.zip",
+          "platform": "macos",
+          "model": "G5",
+          "type": "Stock",
+          "size": 2142541360,
+          "sha256": "f07c800621b237ba53d33a59f4bc74d91baa029131c617f58085aeae57630582",
+          "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_g5.zip",
+        "SHA256SUMS.MX4_EN-V1.11-20260727"
+      ],
+      "stats_url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/stats.txt"
+    }
+  ],
   "source_readme": {
     "path": "README.md",
     "source_path": "README.md",
