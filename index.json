@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-15T23:16:46Z",
+  "generated_at": "2026-11-16T03:06:31Z",
   "source_repo": "y1-community/g5-stock-rom",
   "source_fallback_repo": "ryan-specter/g5-stock-rom",
   "mirror_repo": "y1-community/g5-stock-rom-mirror",
@@ -76,7 +76,7 @@
           "model": "G5",
           "type": "Stock",
           "size": 2088208244,
-          "sha256": "1255581c013e3d37bb03068c691285790498e1d812912e1a43ac77a224db3813",
+          "sha256": "78b0786a1f22553c5fba8fe5ef294c1325fa5c51f8fde117460036dee6c35b34",
           "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows.zip",
           "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows.zip"
         },
@@ -87,7 +87,7 @@
           "model": "G5",
           "type": "Stock",
           "size": 2097668626,
-          "sha256": "f691fa87e1fc90f944df30e1e3e0425c2e856672d23a41ae0e8c13b7996eb704",
+          "sha256": "8b130d8cdcd11e2fab259a18945005a002d1d73e8cd1883241ef7e2f26742640",
           "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows-legacy.zip",
           "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-windows-legacy.zip"
         },
@@ -98,7 +98,7 @@
           "model": "G5",
           "type": "Stock",
           "size": 2096082089,
-          "sha256": "8307747967df314970eef66c97f2206b1fe11a731d39bb362b070363a3f12e0b",
+          "sha256": "5cff8f0aa7b6abb35e28c3f8a1528343e869dcaf30a7714cf2a2630612dc2be7",
           "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux.zip"
         },
@@ -109,7 +109,7 @@
           "model": "G5",
           "type": "Stock",
           "size": 2096082911,
-          "sha256": "996269b841c11cf75e7eac3a79c89c1825f526e4d024236727fe2d28a9a0db60",
+          "sha256": "80434d086cf631ded60c75763934d66a20875720b930c7d07ac7092a96e10066",
           "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux-legacy.zip",
           "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-linux-legacy.zip"
         },
@@ -120,7 +120,7 @@
           "model": "G5",
           "type": "Stock",
           "size": 2142541360,
-          "sha256": "91fc31b44ec055c6277cc4b8b4a2c96b7ffa3fab231e378e9cca5e5adf503fea",
+          "sha256": "8915e23a6dcec75e42254a0ae5e6ddf1f48bdc0bdb8ce5748e14da95cb469a1e",
           "url": "https://github.com/y1-community/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/g5-stock-rom-mirror/releases/download/MX4_EN-V1.11-20260727/rom_g5-macos.zip"
         }
